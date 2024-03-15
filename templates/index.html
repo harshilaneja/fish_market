@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Species Prediction</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Predict Fish Species</h1>
+        <form action="/predict" method="post">
+            <label for="length1">Length1:</label><br>
+            <input type="text" id="length1" name="length1"><br>
+            <label for="length2">Length2:</label><br>
+            <input type="text" id="length2" name="length2"><br>
+            <label for="length3">Length3:</label><br>
+            <input type="text" id="length3" name="length3"><br>
+            <label for="weight">Weight:</label><br>
+            <input type="text" id="weight" name="weight"><br>
+            <label for="width">Width:</label><br>
+            <input type="text" id="width" name="width"><br><br>
+            <label for="Height">Height:</label><br>
+            <input type="text" id="Height" name="Height"><br><br>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
